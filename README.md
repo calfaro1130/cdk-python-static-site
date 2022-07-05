@@ -12,7 +12,7 @@ The resources created include:
 - Already created hosted zone in route 53
 - An AWS Account
 
-## Install, Build, Deploy and Clean up
+## Install, Build, Deploy
 ### CDK
 Install AWS CDK Toolkit
 ```sh
@@ -38,6 +38,8 @@ Activate the virtual environment and install the dependencies.
 source .env/bin/activate
 pip install -r requirements
 ```
+
+Edit infrastructure.py to reflect your config.
 
 Synthesize the CloudFromation template.
 ```sh
